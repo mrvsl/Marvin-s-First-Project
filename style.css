@@ -37,6 +37,7 @@ h1 {
 .column4 {
   float: left;
   width: 25%;
+  background-color: moccasin;
 }
 
 .row:after {

@@ -49,3 +49,27 @@ h1 {
 .redBackground {
   background-color: red;
 }
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: green;
+  color: white;
+}
